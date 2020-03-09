@@ -19,8 +19,14 @@ app.use(logger)
 
 app.use('/api', router)
 
+app.use(express.static(`${__dirname}/dist`))
+
 app.use(errorHandler)
 
-app.listen(port, () => console.log(`Express is up and running on ${port}`))
+app.get('/*', (req, res) => res.sendFile(`${__dirname}/dist/index.html`))
+
+app.listen(4000, () => console.log('Static server on port 4000'))
+
+// app.listen(port, () => console.log(`Express is up and running on ${port}`))
 
 module.exports = app

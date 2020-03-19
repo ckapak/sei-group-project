@@ -4,7 +4,9 @@
 
 This was my third project (built in a group) on the Software Engineering Immersive course at General Assembly.
 
-**Out And About** is an app that allows users to search for free outdoor events in London by entering the postcode of the area they wish to visit, the date, time and the event category. ​Once the user registers and logs in, they can join an event, view past/upcoming/future events on their profile page, add comments on the event board and create their own event. 
+**Out And About** is an app that allows users to search for free outdoor events in London by entering the postcode of the area they wish to visit, the date, time and the event category. 
+
+​Once the user registers and logs in, they can join an event, view past/upcoming/future events on their profile page, add comments on the event board and create their own event. 
 
 ## Teammates
 
@@ -50,20 +52,56 @@ $ yarn start:back
 
 ## Website Architecture
 
-The app is comprised of the following:
-Home Page
-Index Page
+The app is comprised of the following pages:
+
+### Home 
+The homepage allows the user to search for an event.  
+
+![picture](src/assets/home.png)
+![picture](src/assets/home2.png)
+
+### Index 
+A list of relevant events will appear relating to the user's search. If there isn't anything that fits the user's requirements, then the interface will return alternatives. 
+
+![picture](src/assets/show.png)
+
+### Event
+When the user selects an event from the list, they will see more details.
+
+![picture](src/assets/event.png)
+
+### Register & Login
+The user must register if they want to join an event, create an event or make a comment on the event board. 
+
+![picture](src/assets/register2.png)
+
+### New Event
+Once logged in, the user can create an event.  
+
+![picture](src/assets/create.png)
+
+All categories are predetermined by the admin team. So if the user wishes to add another category, they must signify their interest using our working form.  
+
+![picture](src/assets/form.png)
+
+### User Profile
+Once the user logs in, they'll be able to view their past, created and upcoming events. 
+
+![picture](src/assets/profilepage.png)
 
 ## My Contributions
 
 ### Planning
-I showed the team how to use Trello to organise and manage the project. Once we discussed the idea for the app, a teammate created wireframes using Figma.
+I showed the team how to use Trello to organise and manage the project.
 
 ![picture](src/assets/trello.png)
 
+Once we discussed the idea for the app, I drafted up the wireframes and a teammate transformed them using Figma.
+
+![picture](src/assets/figma.png)
 
 ### Image Profile
-I created a custom front-end image upload component (using Cloudinary, a cloud-based image and video management service) and imported it into the registeration and user profile pages. 
+I created a custom front-end image upload component (using Cloudinary, a cloud-based image and video management service) and imported it into the registration and user profile pages. 
 
 ```
   handleUpload = async ({ target: { files } }) => {
@@ -79,7 +117,7 @@ I created a custom front-end image upload component (using Cloudinary, a cloud-b
 
 ![picture](src/assets/profile.png)
 
-I worked together with a team-mate to show a generic default image of a tennis ball if the user decides not to upload a profile image during the registration process. The user has the option to upload an image at a later time. 
+I worked with a team-mate to show a generic default image of a tennis ball if the user decides not to upload a profile image during the registration process. The user has the option to upload an image at a later time. 
 
 ```
       if (!response.data.profileImage) {
@@ -128,13 +166,13 @@ function errorHandler(err, req, res, next) {
 }
 ```
 
-So, as an example, if the user misses out a required piece of info on the registration form - a user-friendly error message is returned and prompts the user to complete all fields. 
+As an example, if the user misses out a required piece of info on the registration form - the interface returns a user-friendly error message and prompts the user to complete all fields. 
 
 ![picture](src/assets/register.png)
 
 ### User Comments
 
-I also added the functionality for users to make comments on the 'show event' page which appears alongside their handle username and profile image: 
+I enabled users (once logged in) to make comments on the event page which appears alongside their handle username and profile image: 
 
 ```
             <div className="four columns showpage-column-right">
@@ -162,7 +200,6 @@ I also added the functionality for users to make comments on the 'show event' pa
 ```
 
 ![picture](src/assets/comments.png)
-
 
 ## Challenges & Future Improvements
 

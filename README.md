@@ -1,13 +1,13 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Out and About
+# Out and About Project
 ​
 ## Overview
-Out And About is an application that allows users to search for free outdoor events in London by simply entering the area they wish to visit, the date, time and the event category. ​Once the user registers and logs in, they can join the event, send messages on the event board and create their own event. 
+Out And About is an application that allows users to search for free outdoor events in London by simply entering the postcode of the area they wish to visit, the date, time and the event category. ​Once the user registers and logs in, they can join the event, send messages on the event board and create their own event. 
 
 ---
 ​
 ## Technologies
 ​
-Here were the technical requirements of the project:
+The app was built with:
 ​
 * React
 * Express
@@ -25,10 +25,13 @@ Here were the technical requirements of the project:
 ## Getting started
 
 Use the clone button to download the source code. Run the following commands in the terminal:
+
+```
 <!-- To install all the packages listed in the package.json: -->
 $ yarn
 
 <!-- Run the app in your localhost: -->
 $ yarn start:front
 $ yarn start:back
+```
 

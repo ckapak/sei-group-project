@@ -1,26 +1,22 @@
 # Out and About Project
 ​
 ## Overview
-___
 
 This was my third project (built in a group) on the Software Engineering Immersive course at General Assembly.
 
-**Out And About** is an app that allows users to search for free outdoor events in London by simply entering the postcode of the area they wish to visit, the date, time and the event category. ​Once the user registers and logs in, they can join an event, view past/upcoming/future events on their profile page, add comments on the event board and create their own event. 
+**Out And About** is an app that allows users to search for free outdoor events in London by entering the postcode of the area they wish to visit, the date, time and the event category. ​Once the user registers and logs in, they can join an event, view past/upcoming/future events on their profile page, add comments on the event board and create their own event. 
 
 ## Teammates
-___
 
 Dide:
 George:
-Jesse 
+Jesse: 
 ​
 ## Brief
-___
 
-To plan, build, style and test a full-stack MERN application in one week. This must incorporate a React frontend that communicates with our backend Express API built with MongoDB. We also had to write unit tests for at least one RESTful resource on the back-end.
+To plan, build, style and test a full-stack MERN application in one week. This must incorporate a React frontend that communicates with our backend Express API built with MongoDB. There must be unit tests for at least one RESTful resource on the back-end.
 
 ## Technologies
-___
 ​
 The app was built with:
 ​
@@ -36,12 +32,10 @@ The app was built with:
 * GitHub
 ​
 ## Deployment
-___
 
 This application was deployed on Heroku at https://out-about-events.herokuapp.com/ 
 
 ## Getting started
-___
 
 Use the clone button to download the source code. Run the following commands in the terminal:
 
@@ -55,18 +49,17 @@ $ yarn start:back
 ```
 
 ## Website Architecture
-___
 
 The app is comprised of the following:
 Home Page
 Index Page
 
-
 ## My Contributions
-___
 
 ### Planning
-I showed the team how to use Trello to organise and manage the project. Once we discussed the idea for the app, a teammate created wireframes using Figma. 
+I showed the team how to use Trello to organise and manage the project. Once we discussed the idea for the app, a teammate created wireframes using Figma.
+
+![picture](assets/trello.png)
 
 ### Image Upload
 I created a custom front-end image upload component (using Cloudinary, a cloud-based image and video management service) and imported it into the registeration and user profile pages. 
@@ -160,7 +153,6 @@ I also added the functionality for users to make comments on the 'show event' pa
               }
 ```
 
-## Challenges & future improvements
-___
+## Challenges & Future Improvements
 
 We were comfortable using Bulma as a CSS framework for styling previous projects, so we used something new - Skeleton CSS. Unfortunately, due to time constraints, we weren't able to get completely familiar with this framework which meant that the app is not mobile responsive. 

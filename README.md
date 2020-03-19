@@ -8,9 +8,9 @@ This was my third project (built in a group) on the Software Engineering Immersi
 
 ## Teammates
 
-Dide:
-George:
-Jesse: 
+* Dide: https://github.com/didemertens
+* George: https://github.com/georgeanthony33
+* Jesse: https://github.com/Jesse2889 
 ​
 ## Brief
 
@@ -59,9 +59,10 @@ Index Page
 ### Planning
 I showed the team how to use Trello to organise and manage the project. Once we discussed the idea for the app, a teammate created wireframes using Figma.
 
-![picture](assets/trello.png)
+![picture](src/assets/trello.png)
 
-### Image Upload
+
+### Image Profile
 I created a custom front-end image upload component (using Cloudinary, a cloud-based image and video management service) and imported it into the registeration and user profile pages. 
 
 ```
@@ -75,6 +76,9 @@ I created a custom front-end image upload component (using Cloudinary, a cloud-b
     })
   }
 ```
+
+![picture](src/assets/profile.png)
+
 I worked together with a team-mate to show a generic default image of a tennis ball if the user decides not to upload a profile image during the registration process. The user has the option to upload an image at a later time. 
 
 ```
@@ -90,7 +94,9 @@ I worked together with a team-mate to show a generic default image of a tennis b
 ```
 
 ### Map  
-Built together with a team-mate, we used a third-party Mapbox API which shows where the event would be (demonstrated by a marker and popup box with the title of the event) after the user searches for an event.  
+Built together with a team-mate, we used a third-party Mapbox API which shows where the event would be (demonstrated by a marker and popup box with the title of the event) after the user searches for an event. 
+
+![picture](src/assets/map.png)
 
 ### Register & Login Page
 I built the register and login pages, with a focus on creating custom error handler messages. 
@@ -124,6 +130,8 @@ function errorHandler(err, req, res, next) {
 
 So, as an example, if the user misses out a required piece of info on the registration form - a user-friendly error message is returned and prompts the user to complete all fields. 
 
+![picture](src/assets/register.png)
+
 ### User Comments
 
 I also added the functionality for users to make comments on the 'show event' page which appears alongside their handle username and profile image: 
@@ -152,6 +160,9 @@ I also added the functionality for users to make comments on the 'show event' pa
                 <div></div>
               }
 ```
+
+![picture](src/assets/comments.png)
+
 
 ## Challenges & Future Improvements
 

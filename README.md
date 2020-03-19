@@ -1,20 +1,14 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #3: A MERN Stack App
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Out and About
 ​
 ## Overview
-​
-**You’ve come a long way, and it's time to show it.** This will be your most advanced project to date. It is __IMPORTANT__ to note that when we say _advanced_, the project doesn't necessarily need to have lots more functionality.
-​
-**Remember:** simple code is stable code, so always favour refactoring and bug fixing over adding more functionality.
-​
-With this in mind, you need to be smart about how you plan, limit your project scope to be achievable (in terms of functionality) and focus on quality rather than quantity.
-​
-Make sure you review your project proposal with your instructor so you can make sure it's **something you can accomplish in the limited time we have**. You will have some time after the project to add extra functionality before your Meet & Hire!
-​
+​ 'Out And About' is an application that allows users to search for free outdoor
+events in London by simply entering the area they wish to visit, the date, time
+and the event category. ​Once the user registers and logs in, they can join the event, send messages on the event board and create their own event. 
 ---
 ​
 ## Technical Requirements
 ​
-You must:
+Here were the technical requirements of the project:
 ​
 * **Build a full-stack application** by making your own backend and your own front-end
 * **Use an Express API** to serve your data from a Mongo database

@@ -23,6 +23,7 @@ To plan, build, style and test a full-stack MERN application in one week. This m
 The app was built with:
 ​
 * React
+* Mapbox
 * Express
 * Node.js
 * MongoDB
@@ -32,6 +33,12 @@ The app was built with:
 * Bulma
 * Git
 * GitHub
+* Chai
+* Mocha
+* Cloudinary
+* Figma
+* Trello
+
 ​
 ## Deployment
 
@@ -92,11 +99,13 @@ Once the user logs in, they'll be able to view their past, created and upcoming 
 ## My Contributions
 
 ### Planning
-I showed the team how to use Trello to organise and manage the project.
+I showed the team how to use Trello to organise and manage the project in an
+agile process. We allocated tasks, and moved each one to the appropriate column
+(i.e. whether it was 'To Do', 'In Progress' or 'Done). We discussed our progress in daily stand-ups. 
 
-![picture](src/assets/trello.png)
+![picture](src/assets/trello2.png)
 
-Once we discussed the idea for the app, I drafted up the wireframes and a teammate transformed them using Figma.
+Once we discussed the final idea for the app, I drafted up the wireframes and a teammate transformed them using Figma. 
 
 ![picture](src/assets/figma.png)
 
@@ -117,7 +126,7 @@ I created a custom front-end image upload component (using Cloudinary, a cloud-b
 
 ![picture](src/assets/profile.png)
 
-I worked with a team-mate to show a generic default image of a tennis ball if the user decides not to upload a profile image during the registration process. The user has the option to upload an image at a later time. 
+I worked with a team-mate to show a generic default image of a tennis ball if the user decided not to upload a profile image during the registration process. The user has the option to upload an image at a later time via their profile page. 
 
 ```
       if (!response.data.profileImage) {
@@ -132,12 +141,14 @@ I worked with a team-mate to show a generic default image of a tennis ball if th
 ```
 
 ### Map  
-Built together with a team-mate, we used a third-party Mapbox API which shows where the event would be (demonstrated by a marker and popup box with the title of the event) after the user searches for an event. 
+Built together with a team-mate, we used Mapbox API which shows where the event would be (demonstrated by a marker and popup box with the title of the event) after the user searches for an event. 
 
 ![picture](src/assets/map.png)
 
 ### Register & Login Page
 I built the register and login pages, with a focus on creating custom error handler messages. 
+
+As an example, if the user misses out a required piece of info on the registration form - the interface returns a user-friendly error message and prompts the user to complete all fields. 
 
 ```
 function errorHandler(err, req, res, next) { 
@@ -165,8 +176,6 @@ function errorHandler(err, req, res, next) {
 
 }
 ```
-
-As an example, if the user misses out a required piece of info on the registration form - the interface returns a user-friendly error message and prompts the user to complete all fields. 
 
 ![picture](src/assets/register.png)
 
@@ -203,4 +212,10 @@ I enabled users (once logged in) to make comments on the event page which appear
 
 ## Challenges & Future Improvements
 
-We were comfortable using Bulma as a CSS framework for styling previous projects, so we used something new - Skeleton CSS. Unfortunately, due to time constraints, we weren't able to get completely familiar with this framework which meant that the app is not mobile responsive. 
+Thanks to our meticulous planning, effective communiction and an agile mindset, we successfully delivered a fully-functional full-stack app.  
+
+Moving forward: 
+* We were comfortable using Bulma as a CSS framework for styling previous projects, so we used something new - Skeleton CSS. Unfortunately, due to time constraints, we weren't able to get completely familiar with this framework which meant that the app is not mobile responsive. 
+* In addition to this I would like to add more features to the app, like a weather forecast and a section that shows users which events are coming up in their area. 
+
+

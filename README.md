@@ -210,9 +210,13 @@ I enabled users (once logged in) to make comments on the event page which appear
 
 ![picture](src/assets/comments.png)
 
-## Challenges & Future Improvements
+## Wins & Key Learnings
 
-Thanks to our meticulous planning, effective communiction and an agile mindset, we successfully delivered a fully-functional full-stack app.  
+Thanks to our meticulous planning, effective communication and an agile mindset, we successfully delivered a fully-functional full-stack app.
+
+From the styling to the choice of project through to problem-solving and styling, we made group decisions and tackled each area collectively. The project definitely taught me how to work as a team and was a great introduction to pair programming.
+
+## Future Improvements
 
 Moving forward: 
 * We were comfortable using Bulma as a CSS framework for styling previous projects, so we used something new - Skeleton CSS. Unfortunately, due to time constraints, we weren't able to get completely familiar with this framework which meant that the app is not mobile responsive. 
